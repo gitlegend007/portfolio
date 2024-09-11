@@ -1,0 +1,30 @@
+body {
+    background-color: #11111b;
+   
+}
+.text{
+    font-family: system-ui, -apple-system,Helvetica, sans-serif;
+    justify-content: space-around;
+    display: flex;
+    color: aliceblue;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #242424;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 300px;
+}
+.exbtn{
+    width: 130px;
+    height: 50px;
+    border-color: aqua;
+    border-radius: 15px ;
+    background-color: #0a0a0e;
+    color: aliceblue;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+summary{list-style: none;}
+
+a{
+   color: aliceblue;
+   text-decoration: none; 
+   transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+.principal{
+    color: aliceblue;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: system-ui, -apple-system,Helvetica, sans-serif;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: rgb(0, 0, 0) 0 4px;   
+}
+
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #0a0a0e;
+   height: 8vh;
+   margin-bottom: 60px;
+   text-shadow: rgb(0, 0, 0) 0 4px; 
+}
+
+body{
+    background-color: #11111b;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.text{
+    font-family: system-ui, -apple-system,Helvetica, sans-serif;
+    justify-content: space-around;
+    color: aliceblue;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #23232e;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.exbtn{
+    width: 130px;
+    height: 50px;
+    border-color: aqua;
+    border-radius: 15px ;
+    background-color: #101014;
+    color: aliceblue;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+.texto{
+    font-family: system-ui, -apple-system,Helvetica, sans-serif;
+    justify-content: space-around;
+    color: aliceblue;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #23232e;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+    background-color: #0a0a0e;
+    height: 8vh;
+    
+}
+
+.img{
+    text-align: center;
+}
+
+/*Animação*/
+.line {
+    position: relative;
+    width: 0px;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 150%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system,Helvetica, sans-serif;
+    margin-top: 40px;
+    text-shadow: #000000 0 1px;
+    
+}
+.anim-typewriter {
+    animation: typewriter 4s steps(9) 500ms infinite,
+    blinkTextCursor 500ms steps(9) infinite normal;
+}
+@keyframes typewriter {
+    0% {
+          width: 0px;
+    }
+    10% {
+          width: 0px;
+    }
+    25% {
+          width: 160px;
+    }
+    75% {
+          width: 160px;
+    }
+    90% {
+          width: 0px;
+    }
+    100% {
+          width: 0px;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+.apresent{
+    background-image: url("fundo4.jpg");
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    height: 70vh;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
